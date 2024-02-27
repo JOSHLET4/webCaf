@@ -1,0 +1,74 @@
+:root{
+    --fondo-oscuro: #01090D;
+    --fondo-medio: #031626;
+    --sombra: orange;
+    --color-lista: #f2f2f2;
+}
+
+body{
+    background-color: var(--fondo-medio);
+    margin: 0;
+}
+
+.encabezado{
+    background-color: var(--fondo-medio);
+    width: 100%;
+    height: 55px;
+    display: flex;
+}
+
+.navegacion{
+    background-color: var(--fondo-oscuro);
+    width: 70%;
+    height: 55px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: var(--sombra) 0 1px 1px 1px;
+    position: fixed;
+    top: 0;
+    left: 15%;
+    display: flex;
+}
+
+.logotipo{
+    width: 33.33%;
+    height: 55px;
+    display: flex;
+}
+
+.img-logo{
+    width: 60px;
+    margin-left: 5%;
+}
+
+.menu{
+    width: 33.33%;
+    height: 55px;
+}
+
+.lista{
+    list-style: none;
+    padding: 10px 0;
+    justify-content: space-around;
+    display: flex;
+}
+
+.lista-hiper{
+    text-decoration: none;
+    color: var(--color-lista);
+}
+
+.boton{
+    width: 33.33%;
+    height: 55px;
+}
+
+.estilo-boton{
+    width: 35%;
+    box-shadow: var(--sombra) 0px 0px 1px 1px;
+    background-color: var(--fondo-medio);
+    color: var(--color-lista);
+    margin-left: 60%;
+    margin-top: 5%;
+    overflow: hidden;
+}
